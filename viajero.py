@@ -13,7 +13,7 @@ class Viajero:
         self.__millasa = millas
         
     def __gt__(self, otro):
-       return self.__millasa > otro.__millasa:
+       return self.__millasa > otro
        
     def __add__(self, otro):
         self.__millasa + otro
